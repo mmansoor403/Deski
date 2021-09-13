@@ -340,7 +340,7 @@ p {
     position: absolute;
     top: 50%;
     width: 100%;
-    transform: transalteY(-50%);
+    transform: translateY(-50%);
 }
 
 .deski-footer h4, .deski-footer a {
