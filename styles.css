@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand img {
+    object-fit: contain;
+    width: 90px;
+}
+
+
+.navbar-deski .nav-link {
+    color: #000!important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+.navbar-deski .nav-link.active {
+    font-weight: 700;
+}
+
+.navbar-container-fluid {
+   padding-left: var(--bs-gutter-x,2rem);
+   padding-right: var(--bs-gutter-x,2rem);
+}
+
+.nav-first .nav-link{
+    margin: auto 2rem;
+}
+
+.nav-download .nav-link,  .nav-first .nav-link:hover {
+    border: 1px solid #000;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.nav-download .nav-link:hover {
+    transform: scale(1.02);
+}
+
+.nav-download img {
+    margin-top: -2px;
+    object-fit: contain;
+    margin-left: 4px;
+}
+
+.navbar-toggler {
+    border: 1px solid #000;
+    padding: 0.5rem;
+}
+
+.deski-body {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.deski-body-first {
+    text-align: center;
+}
+
+h1 {
+    color: #000;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+
+p {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.social-icons-left a, .social-icons-right a {
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.social-icons-left div {
+    text-align: left;
+}
+
+.social-icons-right div {
+    text-align: right;
+}
+
+.social-icons-left div:nth-child(1) {
+    margin-left: 55%;
+    margin-top: -5%;
+}
+
+.social-icons-left div:nth-child(2) {
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+.social-icons-left div:nth-child(3) {
+    margin-top: 15%;
+    margin-left: 75%;
+}
+
+.social-icons-left div:nth-child(4) {
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+.social-icons-right div:nth-child(1) {
+    margin-right: 55%;
+    margin-top: -5%;
+}
+
+.social-icons-right div:nth-child(2) {
+    margin-top: 25%;
+    margin-right: 20%;
+}
+
+.social-icons-right div:nth-child(3) {
+    margin-top: 15%;
+    margin-right: 75%;
+}
+
+.social-icons-right div:nth-child(4) {
+    margin-top: 20%;
+    margin-right: 40%;
+}
+
+.social-icons-left div:nth-child(1) a, .social-icons-top div:nth-child(1) a{
+    background: #FDF6DA;
+    padding: 5px;
+}
+
+.social-icons-left div:nth-child(2) a, .social-icons-bottom div:nth-child(1) a{
+    background: #E6FEE8;
+    padding: 13px 11px;
+}
+
+.social-icons-left div:nth-child(3) a, .social-icons-top div:nth-child(4) a, .social-icons-bottom div:nth-child(3) a{
+    background: #E8F7FF;
+    padding: 11px 4px;
+}
+
+.social-icons-left div:nth-child(4) a,  .social-icons-top div:nth-child(2) a{
+    background: #F7E7FF;
+    padding: 10px;
+}
+
+.social-icons-right div:nth-child(1) a, .social-icons-top div:nth-child(2) a{
+    background: #E8EFFF;
+    padding: 1.62px 0.95px 1.3px;
+}
+
+.social-icons-right div:nth-child(2) a{
+    background: #E6FEE8;
+    padding: 15px 8px;
+}
+
+.social-icons-right div:nth-child(3) a, .social-icons-top div:nth-child(3) a{
+    background: #FFF9EB;
+    padding: 8px;
+}
+
+.social-icons-right div:nth-child(4) a, .social-icons-bottom div:nth-child(4) a{
+    background: #FFEAEF;
+    padding: 10px 0;
+}
+
+.social-icons-left a img, .social-icons-right a img {
+    object-fit: contain;
+}
+
+.social-icons-left div:nth-child(1) a img, .social-icons-top div:nth-child(1) a img {
+    width: 20px;
+    height: 18px;
+    
+}
+
+.social-icons-left div:nth-child(2) a img, .social-icons-bottom div:nth-child(1) a img {
+    width: 24px;
+    height: 24px;
+}
+
+.social-icons-left div:nth-child(3) a img,  .social-icons-top div:nth-child(4) a img, .social-icons-bottom div:nth-child(3) a img {
+    width: 32px;
+    height: 18px;
+}
+
+.social-icons-left div:nth-child(4) a img, .social-icons-bottom div:nth-child(2) a img {
+    width: 20px;
+    height: 20px;
+}
+
+.social-icons-right div:nth-child(1) a img, .social-icons-top div:nth-child(2) a img {
+    width: 24px;
+    height: 22.32px;
+    
+}
+
+.social-icons-right div:nth-child(2) a img {
+    width: 32px;
+    height: 18px;
+}
+
+.social-icons-right div:nth-child(3) a img, .social-icons-top div:nth-child(3) a img {
+    width: 24px;
+    height: 24px;
+}
+
+.social-icons-right div:nth-child(4) a img, .social-icons-bottom div:nth-child(4) a img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons-left img:hover, .social-icons-right img:hover {
+    transform: scale(1.2);
+}
+
+.deski-app-button a img{
+    width: 115px;
+    height: 35px;
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+.deski-app-button a img:hover {
+    transform: scale(1.02);
+}
+
+.deski-body-second {
+    margin: 8rem auto 2rem;
+    position: relative;
+    text-align: left;
+}
+
+.deski-hero-image img {
+    width: 80%;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+}
+
+.vector-left img:nth-child(1) {
+    width: 11px;
+    height: 11px;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+
+.vector-left img:nth-child(2) {
+    width: 30px;
+    height: 25px;
+    object-fit: contain;
+    position: absolute;
+    top: 60%;
+    right: 10%;
+}
+
+.vector-right img:nth-child(1) {
+    width: 16px;
+    height: 13px;
+    object-fit: contain;
+    position: absolute;
+    top: 15%;
+    left: -40%;
+}
+
+.vector-right img:nth-child(2) {
+    width: 11px;
+    height: 15px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.deski-body-third {
+    margin: 12rem auto 3rem;
+}
+
+.feature-block img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: auto auto 30px auto;
+    object-fit: contain;
+}
+
+.feature-block h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+    color: #000;
+    text-align: center;
+}
+
+.feature-block p {
+    margin: 0;
+    color: #878789;
+}
+
+.deski-footer {
+    background: #FCF2E8;
+}
+
+.deski-footer img{
+    width: 100%;
+    object-fit: cover;
+    height: 155px;
+}
+
+.deski-footer-image {
+    position: relative;
+}
+
+
+.footer-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: transalteY(-50%);
+}
+
+.deski-footer h4, .deski-footer a {
+    color: #878789;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.25px;
+text-align: center;
+}
+
+.deski-footer a {
+    text-decoration: underline;
+}
+
+.social-icons-top, .social-icons-bottom {
+    display: flex;
+}
+
+.social-icons-top {
+    margin-top: 4rem;
+    justify-content: space-evenly;
+}
+
+.social-icons-bottom {
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.deski-body-second-mobile {
+    margin-top: 4rem;
+    position: relative;
+}
+
+.deski-body-second-mobile .deski-body-bg, .deski-body-second-mobile .bg-ellipse {
+    width: 100%;
+    object-fit: contain;
+    height: 640px;
+}
+
+.deski-body-second-mobile .bg-ellipse {
+    position: relative;
+    z-index: -1;
+}
+
+.deski-body-second-mobile .deski-body-bg {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .navbar-container-fluid {
+   padding-left: var(--bs-gutter-x,2rem);
+   padding-right: var(--bs-gutter-x,2rem);
+}
+}
+
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+    
+    .navbar-deski .nav-link {
+        padding: 0.5rem 0rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .navbar-container-fluid {
+   padding-left: var(--bs-gutter-x,1rem);
+   padding-right: var(--bs-gutter-x,1rem);
+}
+
+.navbar-brand {
+    margin: auto;
+}
+
+.navbar-deski .nav-link {
+        padding: 0.5rem 0rem;
+    }
+
+    .nav-first .nav-link{
+        margin: 0.5rem;;
+    }
+
+    .nav-download .nav-link {
+        display: inline-block;
+       padding-left: 0.5rem;
+       padding-right: 0.5rem;
+    }
+
+    h1 {
+        
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0.25px;
+        text-align: center;
+
+    }
+
+    .deski-body {
+        padding-top: 2rem;
+        padding-bottom: 0;
+    }
+
+    .feature-block {
+        margin-bottom: 50px;
+    }
+
+    .deski-body-second-mobile .deski-body-bg, .deski-body-second-mobile .bg-ellipse {
+       
+        height: 100%;
+    }
+
+    .deski-body-second-mobile .ph-image-one {
+        position: absolute;
+        top: 20px;
+        width: 200px;
+        height: 400px;
+        object-fit: cover;
+        z-index: 11;
+        left: 150px;
+    }
+    
+    .deski-body-second-mobile .ph-image-two {
+        position: absolute;
+        top: 150px;
+        width: 200px;
+        height: 410px;
+        object-fit: cover;
+        z-index: 111;
+        right: 160px;
+    }
+    
+    .deski-body-second-mobile .ph-image-three {
+        position: absolute;
+        top: 280px;
+        width: 190px;
+        height: 410px;
+        object-fit: contain;
+        z-index: 1111;
+        left: 170px;
+    }
+
+    .deski-body-third {
+        margin: 7rem auto 3rem;
+    }
+    
+}
+
+@media only screen and (max-width: 450px) {
+
+    .deski-body-second-mobile .deski-body-bg, .deski-body-second-mobile .bg-ellipse {
+       
+        height: 640px;
+    }
+
+    .deski-body-second-mobile .ph-image-one {
+        position: absolute;
+        top: 20px;
+        width: 200px;
+        height: 400px;
+        object-fit: cover;
+        z-index: 11;
+        left: 45px;
+    }
+    
+    .deski-body-second-mobile .ph-image-two {
+        position: absolute;
+        top: 165px;
+        width: 200px;
+        height: 410px;
+        object-fit: cover;
+        z-index: 111;
+        right: 40px;
+    }
+    
+    .deski-body-second-mobile .ph-image-three {
+        position: absolute;
+        top: 290px;
+        width: 190px;
+        height: 410px;
+        object-fit: contain;
+        z-index: 1111;
+        left: 70px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .deski-body-second-mobile .ph-image-one {
+        position: absolute;
+        top: 20px;
+        width: 200px;
+        height: 400px;
+        object-fit: cover;
+        z-index: 11;
+        left: 15px;
+    }
+    
+    .deski-body-second-mobile .ph-image-two {
+        position: absolute;
+        top: 150px;
+        width: 200px;
+        height: 410px;
+        object-fit: cover;
+        z-index: 111;
+        right: 15px;
+    }
+    
+    .deski-body-second-mobile .ph-image-three {
+        position: absolute;
+        top: 280px;
+        width: 190px;
+        height: 410px;
+        object-fit: contain;
+        z-index: 1111;
+        left: 35px;
+    }
+}
